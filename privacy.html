@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="口径食対策ガイドのプライバシーポリシーです。">
+  <title>プライバシーポリシー｜口径食対策ガイド</title>
+
+  <style>
+    :root {
+      --background: #07111f;
+      --card: rgba(19, 36, 58, 0.9);
+      --card-border: rgba(255, 255, 255, 0.1);
+      --text: #f5f8ff;
+      --subtext: #b9c7dc;
+      --accent: #b9ec59;
+      --accent-secondary: #78bfff;
+      --shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
+      --content-width: 900px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 15% 10%, rgba(120, 191, 255, 0.18), transparent 35%),
+        radial-gradient(circle at 85% 20%, rgba(185, 236, 89, 0.13), transparent 32%),
+        linear-gradient(180deg, var(--background), #030810 75%);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Hiragino Sans",
+        "Yu Gothic",
+        sans-serif;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    a {
+      color: var(--accent-secondary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: min(calc(100% - 40px), var(--content-width));
+      margin: 0 auto;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(5, 13, 24, 0.84);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .header-inner {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      color: var(--text);
+      font-weight: 800;
+      letter-spacing: 0.03em;
+    }
+
+    .back-link {
+      color: var(--subtext);
+      font-size: 0.95rem;
+    }
+
+    .hero {
+      padding: 72px 0 34px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 7px 13px;
+      color: var(--accent);
+      background: rgba(185, 236, 89, 0.1);
+      border: 1px solid rgba(185, 236, 89, 0.25);
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 6vw, 3.6rem);
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+    }
+
+    .updated {
+      margin: 16px 0 0;
+      color: var(--subtext);
+      font-size: 0.95rem;
+    }
+
+    main {
+      padding: 24px 0 90px;
+    }
+
+    .policy-card {
+      padding: clamp(24px, 5vw, 46px);
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    section + section {
+      margin-top: 36px;
+      padding-top: 30px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.35rem;
+    }
+
+    p {
+      margin: 0;
+      color: var(--subtext);
+    }
+
+    p + p {
+      margin-top: 12px;
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 1.4em;
+      color: var(--subtext);
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .contact-box {
+      margin-top: 16px;
+      padding: 18px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      border-radius: 16px;
+    }
+
+    .button-row {
+      margin-top: 34px;
+      text-align: center;
+    }
+
+    .button {
+      min-height: 48px;
+      padding: 12px 22px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #09111c;
+      background: var(--accent);
+      border-radius: 999px;
+      font-weight: 800;
+      box-shadow: 0 12px 28px rgba(185, 236, 89, 0.22);
+    }
+
+    .button:hover {
+      text-decoration: none;
+    }
+
+    footer {
+      padding: 32px 0 calc(32px + env(safe-area-inset-bottom));
+      color: var(--subtext);
+      text-align: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    @media (max-width: 600px) {
+      .header-inner {
+        min-height: 62px;
+      }
+
+      .brand {
+        font-size: 0.92rem;
+      }
+
+      .back-link {
+        font-size: 0.88rem;
+      }
+
+      .hero {
+        padding-top: 54px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">口径食対策ガイド</a>
+      <a class="back-link" href="index.html">サポートへ戻る</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="container">
+      <span class="eyebrow">Privacy Policy</span>
+      <h1>プライバシーポリシー</h1>
+      <p class="updated">制定日：2026年6月19日</p>
+    </div>
+  </div>
+
+  <main>
+    <div class="container">
+      <article class="policy-card">
+        <section>
+          <h2>1．基本方針</h2>
+          <p>
+            「口径食対策ガイド」（以下「本アプリ」）は、
+            利用者のプライバシーを尊重し、個人情報および利用情報の保護に努めます。
+          </p>
+        </section>
+
+        <section>
+          <h2>2．収集する情報</h2>
+          <p>
+            本アプリは、個人情報、位置情報、連絡先、写真、広告識別子、
+            利用状況、端末情報などを収集しません。
+          </p>
+          <p>
+            アカウント登録、ログイン、広告配信、アクセス解析、
+            外部サーバーへのデータ送信も行いません。
+          </p>
+        </section>
+
+        <section>
+          <h2>3．端末内に保存される情報</h2>
+          <p>
+            本アプリで登録した次の情報は、利用者の端末内に保存されます。
+          </p>
+
+          <ul>
+            <li>登録したレンズ情報</li>
+            <li>撮影用途やお気に入りなどの設定</li>
+            <li>撮影設定メモ</li>
+            <li>絞り値、ISO感度、シャッター速度などの入力内容</li>
+            <li>アプリ内の表示設定および確認済み状態</li>
+          </ul>
+
+          <p>
+            これらの情報は、開発者や第三者へ送信されません。
+            本アプリはクラウド同期機能を使用していません。
+          </p>
+        </section>
+
+        <section>
+          <h2>4．ネットワーク通信</h2>
+          <p>
+            本アプリは、通常の利用においてネットワーク通信を行いません。
+            レンズカタログなどの必要なデータは、アプリ内に同梱されています。
+          </p>
+        </section>
+
+        <section>
+          <h2>5．第三者への提供</h2>
+          <p>
+            本アプリは、利用者の情報を収集していないため、
+            第三者への提供、販売、共有を行いません。
+          </p>
+        </section>
+
+        <section>
+          <h2>6．外部サービスおよび第三者コンテンツ</h2>
+          <p>
+            本アプリには、Lensfunプロジェクトに由来するレンズデータを
+            加工して同梱しています。
+          </p>
+          <p>
+            Lensfun由来データの出典およびライセンス情報は、
+            アプリ内の「ヘルプ」または「データとライセンス」から確認できます。
+            このデータの利用は、個人情報の収集とは関係ありません。
+          </p>
+        </section>
+
+        <section>
+          <h2>7．データの削除</h2>
+          <p>
+            利用者は、本アプリ内で登録したレンズ情報や撮影設定メモを削除できます。
+          </p>
+          <p>
+            本アプリを端末から削除すると、端末内に保存された本アプリのデータも
+            原則として削除されます。ただし、端末のバックアップから復元した場合などは、
+            データが再び表示されることがあります。
+          </p>
+        </section>
+
+        <section>
+          <h2>8．免責事項</h2>
+          <p>
+            本アプリが表示するF値や撮影設定は、
+            実写確認を始めるための理論上の目安です。
+            口径食、レモン形のボケ、周辺光量低下などが完全に解消されることを
+            保証するものではありません。
+          </p>
+          <p>
+            利用者は、撮影環境、使用機材、レンズの光学設計、
+            絞り羽根の形、フードやフィルターの装着状態などを確認したうえで、
+            自身の判断で本アプリを利用してください。
+          </p>
+        </section>
+
+        <section>
+          <h2>9．プライバシーポリシーの変更</h2>
+          <p>
+            本ポリシーの内容は、法令の変更や本アプリの機能変更などに応じて、
+            必要に応じて改定することがあります。
+          </p>
+          <p>
+            重要な変更がある場合は、本ページまたはアプリ内でお知らせします。
+          </p>
+        </section>
+
+        <section>
+          <h2>10．お問い合わせ</h2>
+          <p>
+            本アプリおよび本ポリシーに関するお問い合わせは、
+            次のメールアドレスまでお願いいたします。
+          </p>
+
+          <div class="contact-box">
+            <a href="mailto:crew.alarm.app2026@gmail.com">
+              crew.alarm.app2026@gmail.com
+            </a>
+          </div>
+        </section>
+
+        <div class="button-row">
+          <a class="button" href="index.html">サポートページへ戻る</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Junichiro Tokiyoshi
+    </div>
+  </footer>
+</body>
+</html>
